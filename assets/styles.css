@@ -1,6 +1,12 @@
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url('SpaceGrotesk-Regular.woff2') format('woff2'),
+    url('SpaceGrotesk-Regular.woff') format('woff');
+}
+
 body {
     margin: 0;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     color: #A9E8DC;
     opacity: 0.9;
     font-size: 16px;
