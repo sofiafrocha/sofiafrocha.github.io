@@ -1,25 +1,11 @@
-@font-face {
-    font-family: 'Space Grotesk';
-    src: url('SpaceGrotesk-Regular.woff2') format('woff2'),
-    url('SpaceGrotesk-Regular.woff') format('woff');
+html {
+    font-size: 18px;
 }
 
 body {
-    margin: 0;
-    font-family: 'Space Grotesk', sans-serif;
-    color: #A9E8DC;
-    opacity: 0.9;
-    font-size: 16px;
-
-    background: #036494; /* Old browsers */
-    background: -moz-linear-gradient(45deg, #036494 0%, #02547d 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(45deg, #036494 0%,#02547d 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(45deg, #036494 0%,#02547d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#036494', endColorstr='#02547d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-}
-
-a {
-    color: #E1F7E7;
+    font-family: "IBM Plex Mono", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .wrapper {
@@ -28,25 +14,27 @@ a {
     min-height: 100vh;
     align-items: center;
     justify-content: center;
+    margin: 0;
 }
 
 .content {
     padding: 2rem;
 }
 
-.name, .links {
+.greeting, .summary, .links {
     margin: 0;
 }
 
-.name {
-    font-size: 2.8rem;
+.greeting {
+    font-size: 2rem;
 }
 
-.tldr, .current {
-    margin: 1.1rem 0;
-    padding-left: 1rem;
+.summary {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem 0;
 }
 
-.tldr li, .current li {
-    padding: 0.15rem 0;
+.links {
+    font-size: 0.8rem;
 }
