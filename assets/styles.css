@@ -1,5 +1,7 @@
 html {
     font-size: 18px;
+    background: #213555;
+    color: #F5EFE7;
 }
 
 body {
@@ -27,14 +29,28 @@ body {
 
 .greeting {
     font-size: 2rem;
+
+    @media screen and (min-width: 460px) {
+        br {
+            display: none;
+        }
+    }
 }
 
 .summary {
     list-style-type: none;
     padding: 0;
     margin: 1rem 0;
+
+    li {
+        margin: 0.2rem 0;
+    }
 }
 
 .links {
     font-size: 0.8rem;
+}
+
+a {
+    color: #D8C4B6;
 }
